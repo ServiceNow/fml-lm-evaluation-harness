@@ -2,6 +2,7 @@ from . import (
     anthropic_llms,
     api_models,
     dummy,
+    fast_llm,
     gguf,
     hf_audiolm,
     hf_steered,

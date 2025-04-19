@@ -181,7 +181,6 @@ class FastLLMWrapper(HFLM):
                 path=pretrained,
                 format=fml_config_class.get_checkpoint_format(checkpoint_format),
             ),
-            use_fm_changes=True,  # NOTE: this will be removed after generate is finalized
             **fm_kwards,
         )
 
